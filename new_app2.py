@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-# Video feed
+
 cap = cv2.VideoCapture('carParkingInput.mp4')
 
 with open('CarParkPos', 'rb') as f:
