@@ -3,7 +3,7 @@ import pickle
 import cvzone
 import numpy as np
 
-# Video feed
+
 cap = cv2.VideoCapture('carParkingInput.mp4')
 
 with open('CarParkPos', 'rb') as f:
@@ -54,6 +54,5 @@ while True:
 
     checkParkingSpace(imgDilate)
     cv2.imshow("Image", img)
-    # cv2.imshow("ImageBlur", imgBlur)
-    # cv2.imshow("ImageThres", imgMedian)
+    
     cv2.waitKey(10)
