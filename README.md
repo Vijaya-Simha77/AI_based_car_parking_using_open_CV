@@ -34,8 +34,17 @@ NumPy
 Matplotlib (for visualization)
 TensorFlow/Keras (if using AI for car detection)
 
-**5. Installation & Setup**
-Step-by-step guide to setting up the project on a local machine:
+**5. How It Works**
+Explain how the system functions:
 
-Prerequisites
-Ensure Python and required libraries are installed.
+Capture video feed from a camera.
+Process frames using OpenCV to detect vehicles.
+Identify empty and occupied parking spaces.
+Display the real-time parking status.
+
+**6. Future Enhancements**
+Mention improvements you plan to make, such as:
+
+Integrating with IoT for real-time parking updates.
+Adding a web dashboard for parking monitoring.
+Enhancing detection accuracy with deep learning.
