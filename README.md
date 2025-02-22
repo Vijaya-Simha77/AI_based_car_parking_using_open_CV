@@ -29,14 +29,12 @@ Mention the tech stack and libraries used:
 
 Programming Language: Python
 Libraries & Frameworks:
-OpenCV
-NumPy
-Matplotlib (for visualization)
-cv2
-pickle
-cvzone
-Flask
-TensorFlow/Keras (if using AI for car detection)
+NumPy,
+Matplotlib (for visualization),
+cv2,
+pickle,
+cvzone,
+Flask.
 
 **5. How It Works**
 Explain how the system functions:
