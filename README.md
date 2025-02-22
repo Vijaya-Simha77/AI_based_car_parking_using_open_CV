@@ -35,6 +35,7 @@ Matplotlib (for visualization)
 cv2
 pickle
 cvzone
+Flask
 TensorFlow/Keras (if using AI for car detection)
 
 **5. How It Works**
